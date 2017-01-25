@@ -175,10 +175,10 @@ def _plot_decision_regions(X, y, classifier, resolution=0.02):
     # make grid points.
     xx1, xx2 = np.meshgrid(
         np.arange(x1_min, x1_max, resolution),
-        np.arange(x2_min, x2_max, resolution))  ########### :todo: わからん!!
+        np.arange(x2_min, x2_max, resolution))
     
     # predict.
-    t = np.array([xx1.ravel(), xx2.ravel()]).T  ########### :todo: わからん!!
+    t = np.array([xx1.ravel(), xx2.ravel()]).T
     Z = classifier.predict(t)
     
     # reshape.
