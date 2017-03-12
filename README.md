@@ -15,7 +15,7 @@ $ brew install python3
 Install python libs.
 
 ```
-$ pip3 install numpy pandas matplotlib
+$ pip3 install numpy==1.11.0 pandas==0.19.2 matplotlib=1.5.3
 ```
 
 Run.

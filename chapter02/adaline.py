@@ -4,7 +4,7 @@
 '''
 Created on Jan 17, 2017
 
-@author: ykawatsu
+@author: Yusuke Kawatsu
 '''
 
 import numpy as np

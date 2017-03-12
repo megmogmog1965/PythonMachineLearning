@@ -4,7 +4,7 @@
 '''
 Created on Jan 26, 2017
 
-@author: ykawatsu
+@author: Yusuke Kawatsu
 '''
 
 
